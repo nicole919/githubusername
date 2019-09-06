@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1> look for github repos </h1>
+        <form>
+            <label for="search-username">Search by username</label>
+            <input type="text"  placeholder="username" id="gh-username" required>
+            <input type="submit" value="Go!">
+</form>
+
+<section class="hidden" id="results">
+         <h2>Search results for <span id="username"></span></h2>
+          <ul id="results-list">
+          </ul>
+        </section>
+
+
+   
+    <script src="index.js"></script>
+  </body>
+</html>

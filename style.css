@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
